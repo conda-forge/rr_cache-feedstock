@@ -1,5 +1,5 @@
 {% set name = "rr_cache" %}
-{% set version = "1.0.0" %}
+{% set version = "1.0.2" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   path: ..
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: cf6c958f901da3bcf0ebbc4ae58d7e08dc28b5ac4d335304e9c2bd84b0495e24
+  sha256: 2739fb9eb06730651226eae275e1bb4dc16f5197fa8f84aad7058a059b98b4d8
 
 build:
   number: 0
@@ -40,7 +40,7 @@ test:
 
 about:
   home: https://github.com/brsynth/{{ name|lower }}
-  summary: "RetroRules Cache"
+  summary: RetroRules Cache
   license: MIT
   license_file: LICENSE
 
