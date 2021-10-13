@@ -1,5 +1,5 @@
 {% set name = "rr_cache" %}
-{% set version = "1.0.3" %}
+{% set version = "1.0.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   path: ..
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: ff279c24f0bab6d335f083ac669606d843601a9c88a59f9da645367e508791f8
+  sha256: 6a16017edc11ae9886fc47457fe27e8424433ed77a8bd2a11245ca911f33027d
 
 build:
   number: 0
