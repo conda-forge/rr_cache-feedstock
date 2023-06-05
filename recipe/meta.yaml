@@ -11,7 +11,7 @@ source:
   sha256: 8b8f183ce96eb6671c518a10e565dbd0268279e0be1abfd9aa28987946c2d918
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install -vv .
 
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - brs_utils
+    - brs_utils >=1.22.1
     - requests
     - rdkit
     - colored
