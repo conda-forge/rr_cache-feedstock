@@ -27,7 +27,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-rr_cache-green.svg)](https://anaconda.org/conda-forge/rr_cache) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rr_cache.svg)](https://anaconda.org/conda-forge/rr_cache) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rr_cache.svg)](https://anaconda.org/conda-forge/rr_cache) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rr_cache.svg)](https://anaconda.org/conda-forge/rr_cache) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-rr__cache-green.svg)](https://anaconda.org/conda-forge/rr_cache) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/rr_cache.svg)](https://anaconda.org/conda-forge/rr_cache) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/rr_cache.svg)](https://anaconda.org/conda-forge/rr_cache) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/rr_cache.svg)](https://anaconda.org/conda-forge/rr_cache) |
 
 Installing rr_cache
 ===================
