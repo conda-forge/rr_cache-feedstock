@@ -13,7 +13,7 @@ source:
 build:
   number: 0
   noarch: python
-  script: {{ PYTHON }} setup.py  install
+  script: {{ PYTHON }} setup.py install
 
 requirements:
   host:
