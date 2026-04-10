@@ -1,5 +1,5 @@
 {% set name = "rr_cache" %}
-{% set version = "3.6.0" %}
+{% set version = "3.6.3" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   path: ..
   url: https://github.com/brsynth/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 25e86c5d0eab47d80308070745c320fb655005cabd9a3d9782ad649a3717a1a7
+  sha256: 58b384c32ff5dc72fde3e7d116bcd873282bc439
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - brs_utils >=1.22.1
+    - brs_utils >=1.26.0
     - requests
     - rdkit
     - colored
@@ -46,3 +46,4 @@ extra:
   recipe-maintainers:
     - tduigou
     - breakthewall
+    - ramez17khaled
