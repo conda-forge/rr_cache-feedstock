@@ -18,7 +18,6 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - pip
   run:
     - python >={{ python_min }}
     - brs_utils >=1.26.0
